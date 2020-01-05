@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            // aula sobre operadores lógico
+            // and, or, not
+
+            var sexo = 'M', idade = 23;
+
+            if (sexo === 'M' && idade >= 18) { // && = and, || = or
+                console.log('OK');
+            }
+
+            if (sexo === 'M' || idade >= 18) { // && = and, || = or
+                console.log('OK');
+            }
+
+            if (sexo !== 'M') { // ! = not !=, !== 
+                console.log('OK');
+            }
+
+            var masculino;
+
+            if (sexo === 'M') {
+                masculino = true;
+            } else {
+                masculino = false;
+            }       
+
+            console.log(masculino);
+
+            // ou assim:
+
+            var feminino = (sexo === 'F');
+
+            console.log(feminino);
+
+        </script>       
+    </body>
+</html>
